@@ -23,4 +23,4 @@ GitHub Pages serves the root of the `main` branch. `.nojekyll` disables Jekyll p
 
 Page content is in `index.html`, styles in `style.css`, interaction logic in `app.js`, and task results and media references in `data.json`. Compressed videos and figures are in `assets/`.
 
-The project video is 1280 × 720. Qualitative clips retain their original dimensions, duration, and frame count. Paper and code links will be enabled when their public destinations are ready.
+The project video is 1280 × 720. Qualitative clips retain their original dimensions, duration, and frame count. Code is available at https://github.com/T2-z-latent-optimization/T2-z. The paper link is coming soon.
