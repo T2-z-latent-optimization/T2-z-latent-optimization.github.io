@@ -69,3 +69,6 @@ footer p,.footer-credit{color:var(--muted)}
 .teaser-section .paper-figure img{position:static;width:100%;height:auto;max-width:100%}
 #structure .paper-figure>a{aspect-ratio:auto}
 #structure .paper-figure img{position:static;width:100%;height:auto;max-width:100%}
+/* Match every paper figure to the Abstract reading column. */
+.paper-figure{width:100%;max-width:1000px;margin-inline:auto}
+.paper-figure>a,.teaser-section .paper-figure>a,#structure .paper-figure>a{max-width:1000px;margin-inline:auto}
