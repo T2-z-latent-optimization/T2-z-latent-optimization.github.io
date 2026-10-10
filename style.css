@@ -42,7 +42,7 @@ footer{padding:44px 24px;text-align:center;background:#fafafa;border-top:1px sol
 .bibtex{margin:0;padding:24px 28px;border:1px solid var(--line);border-radius:6px;background:#f2f2f2;color:#333;font-size:.88rem;line-height:1.65;white-space:pre-wrap;overflow-wrap:anywhere;text-align:left}.bibtex code{font-family:Consolas,"Courier New",monospace}
 @media(max-width:520px){.author-notes{gap:5px 15px;font-size:.8rem}.bibtex{padding:18px;font-size:.78rem}}
 
-/* Dark surfaces; paper figures and institutional logos retain their original colors. */
+/* Dark surfaces; figure SVGs use transparent backgrounds and light neutral ink. */
 .skip{background:#171719;color:var(--ink)}
 .soft{border-color:var(--line)}
 .method-description strong,.ablation-description strong{color:var(--ink)}
@@ -64,3 +64,8 @@ footer{background:#080808;border-color:var(--line);color:var(--ink)}
 footer p,.footer-credit{color:var(--muted)}
 .bibtex{background:#111113;color:var(--ink)}
 .hero-links .dataset-link{display:inline-flex;align-items:center;gap:.5em}.dataset-link svg{flex:none}
+.logos{background:#080a0dc9;border:1px solid #ffffff29;backdrop-filter:blur(8px)}
+.teaser-section .paper-figure>a{aspect-ratio:auto;max-width:1280px}
+.teaser-section .paper-figure img{position:static;width:100%;height:auto;max-width:100%}
+#structure .paper-figure>a{aspect-ratio:auto}
+#structure .paper-figure img{position:static;width:100%;height:auto;max-width:100%}
